@@ -13,7 +13,7 @@ To check if you have python3 or not, type the command in your terminal:
 python3
 ```
 
-##Install Jenkins on ubuntu
+## Install Jenkins on ubuntu
 ```
 wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
 sudo sh -c 'echo deb https://pkg.jenkins.io/debian-stable binary/ > \
@@ -23,7 +23,7 @@ sudo apt-get install jenkins
 ```
 Now, we are done with Jenkins Installation!
 
-##Jenkins Service
+## Jenkins Service
 You can start the Jenkins service with the command:
 ```
 sudo systemctl start jenkins
@@ -40,7 +40,7 @@ service jenkins stop
 ```
 http://localhost:8080/
 ```
-####Authentification for first time connection: 
+#### Authentification for first time connection: 
 If you are the first time to connect to Jenkins dashboard, it will ask your password. 
 Just follow what it instructed by typing the command at the terminal and copy the password back to unlock Jenkins : 
 ```
