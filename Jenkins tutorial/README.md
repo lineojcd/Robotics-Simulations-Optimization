@@ -13,6 +13,43 @@ To check if you have python3 or not, type the command in your terminal:
 python3
 ```
 
+##Install Jenkins on ubuntu
+```
+wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+sudo sh -c 'echo deb https://pkg.jenkins.io/debian-stable binary/ > \
+    /etc/apt/sources.list.d/jenkins.list'
+sudo apt-get update
+sudo apt-get install jenkins
+```
+Now, we are done with Jenkins Installation!
+
+##Jenkins Service
+You can start the Jenkins service with the command:
+```
+sudo systemctl start jenkins
+```
+You can check the status of the Jenkins service using the command:
+```
+sudo systemctl status jenkins
+```
+You can stop the Jenkins service with the command:
+```
+service jenkins stop
+```
+## Connect to Jenkins Dashboard 
+```
+http://localhost:8080/
+```
+####Authentification for first time connection: 
+If you are the first time to connect to Jenkins dashboard, it will ask your password. 
+Just follow what it instructed by typing the command at the terminal and copy the password back to unlock Jenkins : 
+```
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+```
+
+
+
+
 ### [PyTorch & torchvision](http://pytorch.org/)
 Follow the instructions in [pytorch.org](http://pytorch.org) for your current setup
 
