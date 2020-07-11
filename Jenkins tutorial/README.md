@@ -69,6 +69,23 @@ Step 1: Go to Jenkins Dashboard, click **Manage Jenkins**
 
 ![customize jenkins](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/manage_jenkins.png)
 
+Step 2: Click **Manage Plugins**
+
+![customize jenkins](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/customize_jenkins_1.jpg)
+
+Step 3: At **Available** tab, type “Blue Ocean” into the search box
+
+![customize jenkins](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/customize_jenkins_2.jpg)
+
+Step 4: Find the **Blue Ocean** plug-in and click “Download now and install after restart”.
+ Now the related plugins are about to download and install.
+ 
+![customize jenkins](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/customize_jenkins_3.jpg)
+
+![customize jenkins](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/customize_jenkins_4.jpg)
+
+Follow the instructions on the above picture and restart your Jenkins.
+
 
 
 
