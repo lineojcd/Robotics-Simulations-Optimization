@@ -61,7 +61,13 @@ Once you have finished all the above steps, you will be able to see the welcome 
 
 ## Install Blue Ocean
 **Blue Ocean produce better UI for Jenkins**, 
-you can see more descriptions about Blue Ocean here: https://www.jenkins.io/blog/2016/05/26/introducing-blue-ocean/
+you can see more descriptions about Blue Ocean here
+: https://www.jenkins.io/blog/2016/05/26/introducing-blue-ocean/ 
+A detailed installation tutorial ```Install Blue Ocean.pdf``` can be found in the current folder.
+
+Step 1: Go to Jenkins Dashboard, click **Manage Jenkins**
+
+![customize jenkins](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/manage_jenkins.png)
 
 
 
