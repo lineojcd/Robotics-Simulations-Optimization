@@ -52,6 +52,13 @@ Once the above steps succeed, you will be able to see as follows. Click on **Ins
 
 ![customize jenkins](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/customize_jenkins.jpg)
 ![customize jenkins](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/install_plugins.png)
+click on **Install suggested plugins** and the plugins are about to be installed: 
+
+## Create Jenkins account
+Create Jenkins account by typing  ```Username, PWD, Full name, E-mail address```.
+Once you have finished all the above steps, you will be able to see the welcome messages from  the Jenkins Dashboard.
+
+
 
 
 
