@@ -48,12 +48,9 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
 
 ## Configuration on Jenkins
-Once the above steps succeed, you will be able to see this:
+Once the above steps succeed, you will be able to see as follows. Click on **Install suggested plugins** and the plugins are about to be installed.
 
 ![customize jenkins](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/customize_jenkins.jpg)
-
-click on Install suggested plugins and the plugins are about to be installed:
-
 ![customize jenkins](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/install_plugins.png)
 
 
