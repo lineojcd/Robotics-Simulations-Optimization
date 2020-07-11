@@ -1,8 +1,17 @@
 # Jenkins Tutorial
 A detailed installation tutorial ```Jenkins Installation Guide.pdf``` can be found in the current folder.
+  
+## Pre-installation check
+**Java8** and **python 3.6+** is need for installing Jenkins. 
 
-## Prerequisites
-Code is intended to work with ```Python 3.6.x```, it hasn't been tested with previous versions
+To check if you have Java8 or not, type the command in your terminal:
+```
+java -version
+```
+To check if you have python3 or not, type the command in your terminal:
+```
+python3
+```
 
 ### [PyTorch & torchvision](http://pytorch.org/)
 Follow the instructions in [pytorch.org](http://pytorch.org) for your current setup
