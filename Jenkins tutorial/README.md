@@ -1,5 +1,5 @@
 # Jenkins Tutorial
-A detailed Tutorial  and readable Pytorch implementation of CycleGAN (https://arxiv.org/abs/1703.10593)
+A detailed installation tutorial can be found here (https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/Jenkins%20Installation%20Guide.pdf)
 
 ## Prerequisites
 Code is intended to work with ```Python 3.6.x```, it hasn't been tested with previous versions
