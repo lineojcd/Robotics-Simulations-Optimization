@@ -59,6 +59,10 @@ click on **Install suggested plugins** and the plugins are about to be installed
 Create Jenkins account by typing  ```Username, PWD, Full name, E-mail address```.
 Once you have finished all the above steps, you will be able to see the welcome messages from  the Jenkins Dashboard.
 
+## Install Blue Ocean
+**Blue Ocean produce better UI for Jenkins**, 
+you can see more descriptions about Blue Ocean here: https://www.jenkins.io/blog/2016/05/26/introducing-blue-ocean/
+
 
 
 
