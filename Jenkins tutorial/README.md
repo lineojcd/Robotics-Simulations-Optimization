@@ -47,6 +47,11 @@ Just follow what it instructed by typing the command at the terminal and copy th
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
 
+## Configuration on Jenkins
+Once the above steps succeed, you will be able to see this:
+![customize jenkins](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/customize_jenkins.jpg)
+
+
 
 
 
