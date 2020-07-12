@@ -15,3 +15,8 @@ Users can either use pre-compiled binaries or build the Unreal Engine and Airsim
 
 ### 1.1.1 Precompiled Binaries
 Precompiled binaries are provided for both [Linux](https://github.com/microsoft/AirSim/releases/tag/v1.3.1-linux) and [Windows](https://github.com/microsoft/AirSim/releases/tag/v1.3.1-windows). Users can just download the zip files and run the application. 
+
+### 1.1.2	[Build Airsim Framework on Linux](https://microsoft.github.io/AirSim/build_linux/)
+The current recommended and tested environment is **Ubuntu 18.04 LTS**. Theoretically, you can build on other distros as well, but we haven't tested it.
+Following steps needs to be followed. 
+
