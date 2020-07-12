@@ -60,3 +60,11 @@ Below we will use a freely downloadable environment from Unreal Marketplace call
 
 **Step by step instructions:**
 
+- Make sure AirSim is built and Unreal 4.24 or above is installed as described in above build instructions.
+- Create a new C++ project in unreal editor.
+![cpp_proj](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/AirSim%20tutorial/src/cpp_proj.png)
+- This will launch visual studio with new c++ project.   
+![cpp_proj_panel](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/AirSim%20tutorial/src/cpp_proj_panel.png)
+- In **Epic Games Launcher** click the Learn tab then scroll down and find **Landscape Mountains**( User is free to choose any other environment). Click on **Create Project** and download this content (~2GB download)
+- Merge the downloaded content with the my project content. Follow the video link instructions to know the steps to follow for merging. We will add both the original config files and changes files on github, so users can cross check whether they have merged all the required changes. 
+- Go to your folder for AirSim repo and copy **Unreal\Plugins** folder in to your **my_project** folder. This way now your own Unreal project has AirSim plugin.
