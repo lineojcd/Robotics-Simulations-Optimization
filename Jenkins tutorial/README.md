@@ -222,7 +222,7 @@ pipeline {
 
 The **Unit Test** is passed and the **Integration test** is failed. This is the same as we expected because there is no command called **echo5**.
 
-### Case 4: Create a pipeline with parallel stages
+### Case 4: Run script on github repo
 **Step 1: Create a new Jenkins job ```multi build``` and configure the pipeline**
 
 Copying the **Jenkinsfile** from a source-controlled GitHub(https://github.com/lineojcd/RPG_Jenkin_Demo.git).
@@ -231,11 +231,14 @@ Copying the **Jenkinsfile** from a source-controlled GitHub(https://github.com/l
 
 ![multi_build.png](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/multi_build.png)
 
-This is because the code in ```demo.py``` can only be excuted by python(version 2.7) without problem.
+This is because Jenkins actually clone the git repo to its local workspace:
+![error_ana.png](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/error_ana.png)
+
+The script ```demo.py``` can only be excuted by python(version 2.7) without problem.
 ```
 print "hello world~~~"
 ```
-It will bring error once we run ```python3 demo.py``` .
+It will bring error once we run ```python3 demo.py```.
 
 
 ## References:
