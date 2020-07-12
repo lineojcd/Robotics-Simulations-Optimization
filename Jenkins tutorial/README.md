@@ -102,7 +102,7 @@ Click the Go to classic icon
  at the top of common section of Blue Ocean’s navigation bar to get back to the classic UI.
  
 ## Create Jobs and Pipeline in Jenkins
-### Case 1: through a direct script
+### Case 1: Create through a direct script
 **Step 1: Create a new Jenkins job**: Click **Create New Jobs**. You can also click **New Item** on the left.
 
 ![create_new_job](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/create_new_job.png)
@@ -113,4 +113,35 @@ In this step, you can select and define what type of Jenkins job you want to cre
 
 ![select_pipeline](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/select_pipeline.png)
 
- 
+**Step 3: Configure and execute a pipeline job through a direct script** 
+
+To execute the pipeline with a direct script, choose **Pipeline script** and copy the below script. Notice that there are three Stages: Build, Test, and Deploy, which are arbitrary and can be anything. Inside each Stage, there are Steps; in this example, they just print some random messages.
+```
+pipeline {
+   agent any
+
+   stages {
+      stage('Build') {
+        steps {
+          echo 'Building...'
+          echo "Running ${env.BUILD_ID} ${env.BUILD_DISPLAY_NAME} on ${env.NODE_NAME} and JOB ${env.JOB_NAME}"
+        }
+   }
+   stage('Test') {
+     steps {
+        echo 'Testing...'
+     }
+   }
+   stage('Deploy') {
+     steps {
+       echo 'Deploying...'
+     }
+   }
+  }
+}
+```
+![pipeline_script](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/pipeline_script.png)
+
+To start the process to build the pipeline, click **Build Now**. If everything works, you will see your first pipeline (like the one below).
+
+![pipeline_script](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/pipeline_script.png)
