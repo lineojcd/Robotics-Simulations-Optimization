@@ -115,3 +115,9 @@ for response in responses:
         print("Type %d, size %d" % (response.image_type, len(response.image_data_uint8)))
         airsim.write_file(os.path.normpath('/temp/py1.png'), response.image_data_uint8)
 ```
+
+
+## References:
+[Install Airsim: Using SITL with AirSim](https://ardupilot.org/dev/docs/sitl-with-airsim.html)
+
+[Install Airsim on Ubuntu](https://zhuanlan.zhihu.com/p/61584334)
