@@ -173,7 +173,7 @@ To see the pipeline's output from the SCM build, click the Stage and view the **
 ![scm_conf_log](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/scm_conf_log.png)
 
 ### Case 3: Create a pipeline with parallel stages
-**Step 1: Create a new Jenkins job: pipe_para and configure the pipeline
+**Step 1: Create a new Jenkins job: pipe_para and configure the pipeline**
 
 ![para1.png](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/para1.png)
 
@@ -223,7 +223,9 @@ pipeline {
 The **Unit Test** is passed and the **Integration test** is failed. This is the same as we expected because there is no command called **echo5**.
 
 ### Case 4: Create a pipeline with parallel stages
-**Step 1: Create a new Jenkins job: ```multi build``` and configure the pipeline by copying the **Jenkinsfile** from a source-controlled GitHub(https://github.com/lineojcd/RPG_Jenkin_Demo.git).
+**Step 1: Create a new Jenkins job ```multi build``` and configure the pipeline**
+
+Copying the **Jenkinsfile** from a source-controlled GitHub(https://github.com/lineojcd/RPG_Jenkin_Demo.git).
 
 **Step 2: Build and see the result on Blue Ocean**
 
