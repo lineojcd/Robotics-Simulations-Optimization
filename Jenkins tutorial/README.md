@@ -102,6 +102,15 @@ Click the Go to classic icon
  at the top of common section of Blue Ocean’s navigation bar to get back to the classic UI.
  
 ## Create Jobs and Pipeline in Jenkins
-**Step 1: Create a new Jenkins job** 
-Click **Create New Jobs**. You can also click **New Item** on the left.
+### Case 1: through a direct script
+**Step 1: Create a new Jenkins job**: Click **Create New Jobs**. You can also click **New Item** on the left.
+
+![create_new_job](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/create_new_job.png)
+
+**Step 2: Create a pipeline job**
+
+In this step, you can select and define what type of Jenkins job you want to create. Select **Pipeline** and give it a name (e.g., TestPipeline). Click **OK** to create a pipeline job.
+
+![select_pipeline](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/select_pipeline.png)
+
  
