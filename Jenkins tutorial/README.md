@@ -101,9 +101,7 @@ Click the Go to classic icon
 ![Switching to the classic UI](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/switching_to_the_classic_UI.png)
  at the top of common section of Blue Ocean’s navigation bar to get back to the classic UI.
  
- ## Create Jobs and Pipeline in Jenkins
- 
- **Step 1: Create a new Jenkins job**
- 
- Click **Create New Jobs**. You can also click **New Item** on the left.
+## Create Jobs and Pipeline in Jenkins
+**Step 1: Create a new Jenkins job** 
+Click **Create New Jobs**. You can also click **New Item** on the left.
  
