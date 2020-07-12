@@ -231,6 +231,12 @@ Copying the **Jenkinsfile** from a source-controlled GitHub(https://github.com/l
 
 ![multi_build.png](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/multi_build.png)
 
+This is because the code in ```demo.py``` can only be excuted by python(version 2.7) without problem.
+```
+print "hello world~~~"
+```
+It will bring erroa if we run ```python3 demo.py``` 
+
 
 ## References:
 [Setting Jenkins CI for python application](https://mdyzma.github.io/2017/10/14/python-app-and-jenkins/)
