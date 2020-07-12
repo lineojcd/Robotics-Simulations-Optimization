@@ -21,6 +21,5 @@ The current recommended and tested environment is **Ubuntu 18.04 LTS**. Theoreti
 
 Following steps needs to be followed. 
 - Build Unreal Engine
-
- - Make sure you are [registered with Epic Games](https://www.unrealengine.com/en-US/). This is required to get source code access for Unreal Engine.
+  - Make sure you are [registered with Epic Games](https://www.unrealengine.com/en-US/). This is required to get source code access for Unreal Engine.
 
