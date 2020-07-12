@@ -86,6 +86,18 @@ Step 4: Find the **Blue Ocean** plug-in and click “Download now and install af
 Follow the instructions on the above picture and restart your Jenkins.
 
 ## Accessing Blue Ocean
-Once a Jenkins environment has Blue Ocean installed, after logging in to the Jenkins classic UI, you can access the Blue Ocean UI by clicking Open Blue Ocean on the left. ![open_blue_ocean](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/open_blue_ocean.png)
+Once a Jenkins environment has Blue Ocean installed, after logging in to the Jenkins classic UI, you can access the Blue Ocean UI by clicking the icon ![open_blue_ocean](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/open_blue_ocean.png) on the left. 
 
+You will see the pipeline that has been run, click on the record.
 
+![pipeline_blue_ocean](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/pipeline_blue_ocean.png)
+
+You will see the advanced pipeline visualisations.
+
+![pipeline_visualisations_blue_ocean](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/pipeline_visualisations_blue_ocean.png)
+
+## Switching to the classic UI
+Click the Go to classic icon 
+![Switching to the classic UI](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/switching_to_the_classic_UI.png)
+ at the top of common section of Blue Ocean’s navigation bar to get back to the classic UI.
+ 
