@@ -115,7 +115,7 @@ In this step, you can select and define what type of Jenkins job you want to cre
 
 **Step 3: Configure and execute a pipeline job through a direct script** 
 
-To execute the pipeline with a direct script, choose **Pipeline script** and copy the below script. Notice that there are three Stages: Build, Test, and Deploy, which are arbitrary and can be anything. Inside each Stage, there are Steps; in this example, they just print some random messages.
+To execute the pipeline with a direct script, choose **Pipeline script** and copy the below script.  Notice that there are three Stages: Build, Test, and Deploy, which are arbitrary and can be anything. Inside each Stage, there are Steps.  In this example, they just print some random messages.
 ```
 pipeline {
    agent any
@@ -140,8 +140,20 @@ pipeline {
   }
 }
 ```
-![pipeline_script](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/pipeline_script.png)
+![pipeline_build](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/pipeline_build.png)
 
 To start the process to build the pipeline, click **Build Now**. If everything works, you will see your first pipeline (like the one below).
 
 ![pipeline_script](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/pipeline_script.png)
+
+To see the output from the pipeline script build, click any of the Stages and click **Log**. You will see a message like this.
+![pipeline_log](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/pipeline_log.png)
+
+You can also see this pipeline in Blue Ocean with a better UI.
+
+### Case 2: Create through a SCM
+**Step 4 Configure and execute a pipeline job with SCM** 
+
+Now, switch gears: In this step, you will deploy the same Jenkins job by copying the **Jenkinsfile** from a source-controlled GitHub(https://github.com/bryantson/CICDPractice.git).
+
+![pipeline_scm](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/pipeline_scm.png)
