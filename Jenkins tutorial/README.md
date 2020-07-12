@@ -102,6 +102,8 @@ Click the Go to classic icon
  at the top of common section of Blue Ocean’s navigation bar to get back to the classic UI.
  
 ## Create Jobs and Pipeline in Jenkins
+Here are some tutorials that introduce how to create jobs and pipeline: https://www.youtube.com/watch?v=m0a2CzgLNsc and https://opensource.com/article/19/9/intro-building-cicd-pipelines-jenkins. Our detailed tutorial ```Jenkins Create Jobs and Pipeline.pdf``` can also be found in the current folder.
+
 ### Case 1: Create through a direct script
 **Step 1: Create a new Jenkins job**: Click **Create New Jobs**. You can also click **New Item** on the left.
 
