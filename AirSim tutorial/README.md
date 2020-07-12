@@ -10,8 +10,8 @@ AirSim is a simulator for drones, cars and more, built on [Unreal Engine](https:
 ## 1.1 How to Get It
 Users can either use pre-compiled binaries or build the Unreal Engine and Airsim framework locally. 
 - [Download binaries](https://microsoft.github.io/AirSim/use_precompiled/): You can simply download precompiled binaries and run to get started immediately. 
-- [Build it locally](https://microsoft.github.io/AirSim/build_windows/) 
+- [Build it locally on Windows](https://microsoft.github.io/AirSim/build_windows/) 
 
 
 ### 1.1.1 Precompiled Binaries
-Precompiled binaries are provided for both linux and windows. Users can just download the zip files and run the application. 
+Precompiled binaries are provided for both [Linux](https://github.com/microsoft/AirSim/releases/tag/v1.3.1-linux) and [Windows](https://github.com/microsoft/AirSim/releases/tag/v1.3.1-windows). Users can just download the zip files and run the application. 
