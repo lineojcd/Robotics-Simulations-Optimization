@@ -24,4 +24,7 @@ Following steps needs to be followed.
   - Make sure you are [registered with Epic Games](https://www.unrealengine.com/en-US/). This is required to get source code access for Unreal Engine.
   - Connect with your github under account settings.
   ![unreal_connect](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/AirSim%20tutorial/src/unreal_connect.png)
+  - Accept the invitation on: https://github.com/EpicGames
+  ![accept_invi](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/AirSim%20tutorial/src/accept_invi.png)
+
 
