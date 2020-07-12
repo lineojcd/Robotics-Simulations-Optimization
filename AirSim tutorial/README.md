@@ -38,4 +38,12 @@ Following steps needs to be followed.
   ```
   If user is building Unreal Engine on Ubuntu 20.04 LTS, use following trick to resolve the make error: ![ubuntu_lts_204](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/AirSim%20tutorial/src/ubuntu_lts_204.png)
 
+- **Build Airsim**
+  - Clone AirSim and build it:
+  ```
+  bash
+   # go to the folder where you clone GitHub projects
+   git clone https://github.com/Microsoft/AirSim.git
+   cd AirSim
+  ```
 
