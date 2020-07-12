@@ -20,6 +20,9 @@ Precompiled binaries are provided for both [Linux](https://github.com/microsoft/
 The current recommended and tested environment is **Ubuntu 18.04 LTS**. Theoretically, you can build on other distros as well, but we haven't tested it.
 
 Following steps needs to be followed. 
-- Build Unreal Engine
+- **Build Unreal Engine**
   - Make sure you are [registered with Epic Games](https://www.unrealengine.com/en-US/). This is required to get source code access for Unreal Engine.
+  - Connect with your github.
+  
+  ![unreal_connect](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/AirSim%20tutorial/src/unreal_connect.png)
 
