@@ -235,7 +235,7 @@ This is because the code in ```demo.py``` can only be excuted by python(version 
 ```
 print "hello world~~~"
 ```
-It will bring erroa if we run ```python3 demo.py``` 
+It will bring error once we run ```python3 demo.py``` .
 
 
 ## References:
