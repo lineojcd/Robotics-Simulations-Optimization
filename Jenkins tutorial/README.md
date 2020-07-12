@@ -172,5 +172,61 @@ To see the pipeline's output from the SCM build, click the Stage and view the **
 
 ![scm_conf_log](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/scm_conf_log.png)
 
-### Case 3 Create a pipeline with parallel stages
+### Case 3: Create a pipeline with parallel stages
+**Step 1: Create a new Jenkins job: pipe_para and configure the pipeline
 
+![para1.png](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/para1.png.png)
+
+Copy the below script or copying the **Jenkinsfile_para** from a source-controlled GitHub(git@github.com:lineojcd/RPG_Jenkin_Demo.git).
+```
+pipeline {
+         agent any
+         stages {
+                 stage('Build') {
+                 steps {
+                     echo 'This is the build State'
+                 }
+                 }
+                 stage('State_Two') {
+                 steps {
+                    echo 'This is the State_Two'
+                 }
+                 }
+                 stage('State_Three') {
+                 steps {
+                       echo "This is 3rd State"
+                 }
+                 }
+                 stage('Testing') {
+                 parallel { 
+                              stage('Unit Test') {
+                                    steps {
+                                         echo "Running the unit test..."
+                                    }
+                              }
+                              stage('Integration test') {
+                                    steps {
+                                         echo5 "Running the integration test..."
+                                       }
+                              }
+                           }
+                  }
+              }
+}
+```
+![para2.png](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/para2.png)
+
+**Step 2: Build and see the result on Blue Ocean**
+![para3.png](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/para3.png)
+
+
+## References:
+[Setting Jenkins CI for python application](https://mdyzma.github.io/2017/10/14/python-app-and-jenkins/)
+
+[More about Jenkinsfile](https://www.jenkins.io/doc/book/pipeline/jenkinsfile/)
+
+[Jenkins CI Pipeline with Python](https://medium.com/@Joachim8675309/jenkins-ci-pipeline-with-python-8bf1a0234ec3)
+
+[Jenkins Pipeline Tutorial: A Beginner’s Guide To Continuous Delivery](https://www.edureka.co/blog/jenkins-pipeline-tutorial-continuous-delivery)
+ 
+[Parallel stages with Declarative Pipeline 1.2](https://www.jenkins.io/blog/2017/09/25/declarative-1/)
