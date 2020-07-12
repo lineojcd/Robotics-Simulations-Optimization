@@ -52,5 +52,6 @@ Following steps needs to be followed.
    ./setup.sh
    ./build.sh
   ```
+### 1.1.3	[Build Airsim Framework on Windows](https://microsoft.github.io/AirSim/build_windows/)
 
 
