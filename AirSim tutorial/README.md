@@ -18,5 +18,8 @@ Precompiled binaries are provided for both [Linux](https://github.com/microsoft/
 
 ### 1.1.2	[Build Airsim Framework on Linux](https://microsoft.github.io/AirSim/build_linux/)
 The current recommended and tested environment is **Ubuntu 18.04 LTS**. Theoretically, you can build on other distros as well, but we haven't tested it.
+
 Following steps needs to be followed. 
+- Build Unreal Engine
+ - Make sure you are registered with Epic Games. This is required to get source code access for Unreal Engine.
 
