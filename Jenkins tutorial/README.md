@@ -220,8 +220,14 @@ pipeline {
 
 ![para3.png](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/para3.png)
 
-The **Unit Test** is passed and the **Integration test** is failed. This is the same as we expected because there is no command called echo5.
+The **Unit Test** is passed and the **Integration test** is failed. This is the same as we expected because there is no command called **echo5**.
 
+### Case 4: Create a pipeline with parallel stages
+**Step 1: Create a new Jenkins job: ```multi build``` and configure the pipeline by copying the **Jenkinsfile** from a source-controlled GitHub(https://github.com/lineojcd/RPG_Jenkin_Demo.git).
+
+**Step 2: Build and see the result on Blue Ocean**
+
+![multi_build.png](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/multi_build.png)
 
 
 ## References:
