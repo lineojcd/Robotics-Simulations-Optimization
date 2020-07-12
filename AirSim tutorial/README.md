@@ -69,6 +69,7 @@ Below we will use a freely downloadable environment from Unreal Marketplace call
 - Merge the downloaded content with the my project content. Follow the video link instructions to know the steps to follow for merging. We will add both the original config files and changes files on github, so users can cross check whether they have merged all the required changes. 
 - Go to your folder for AirSim repo and copy **Unreal\Plugins** folder in to your **my_project** folder. This way now your own Unreal project has AirSim plugin.
 - Edit the **my_project.uproject** so that it looks like this
+
 ![my_project_uproject](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/AirSim%20tutorial/src/my_project_uproject.png)
 - Launch unreal editor, go to file menu to refresh visual studio
 ![launch_editor](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/AirSim%20tutorial/src/launch_editor.png)
@@ -76,3 +77,41 @@ Below we will use a freely downloadable environment from Unreal Marketplace call
 ![load_VS](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/AirSim%20tutorial/src/load_VS.png)
 - In **Window/World Settings** as shown below, set the **GameMode Override** to **AirSimGameMode**
 ![airsim_mode](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/AirSim%20tutorial/src/airsim_mode.png)
+
+### 1.3	Control Unreal Environment using python
+Airsim exposes APIs so you can interact with vehicle in the simulation programmatically. You can use these APIs to retrieve images, get state, control the vehicle and so on. If you want to use Python to call AirSim APIs, we recommend using Anaconda with Python 3.5 or later versions however some code may also work with Python 2.7 ([help us](https://microsoft.github.io/AirSim/CONTRIBUTING/) improve compatibility!).
+
+First, intall this package:
+```
+pip install Airsim
+```
+Here is how to use AirSim APIs in Python to control simulated quadrotor:
+```
+# ready to run example: PythonClient/multirotor/hello_drone.py
+import airsim
+
+# connect to the AirSim simulator
+client = airsim.MultirotorClient()
+client.confirmConnection()
+client.enableApiControl(True)
+client.armDisarm(True)
+
+# Async methods returns Future. Call join() to wait for task to complete.
+client.takeoffAsync().join()
+client.moveToPositionAsync(-10, 10, -10, 5).join()
+
+# take images
+responses = client.simGetImages([
+    airsim.ImageRequest("0", airsim.ImageType.DepthVis),
+    airsim.ImageRequest("1", airsim.ImageType.DepthPlanner, True)])
+print('Retrieved images: %d', len(responses))
+
+# do something with the images
+for response in responses:
+    if response.pixels_as_float:
+        print("Type %d, size %d" % (response.image_type, len(response.image_data_float)))
+        airsim.write_pfm(os.path.normpath('/temp/py1.pfm'), airsim.getPfmArray(response))
+    else:
+        print("Type %d, size %d" % (response.image_type, len(response.image_data_uint8)))
+        airsim.write_file(os.path.normpath('/temp/py1.png'), response.image_data_uint8)
+```
