@@ -1,17 +1,12 @@
 # AirSim Tutorial
-A detailed installation tutorial ```Jenkins Installation Guide.pdf``` can be found in the current folder.
-  
-## Pre-installation check
-**Java8** and **python 3.6+** is need for installing Jenkins. 
+AirSim is a simulator for drones, cars and more, built on [Unreal Engine](https://www.unrealengine.com/en-US/?sessionInvalidated=true). It is open-source, cross platform, and supports hardware-in-loop with popular flight controllers such as PX4 for physically and visually realistic simulations. It is developed as an Unreal plugin that can simply be dropped into any Unreal environment.
+- Latest release v1.3.1 for [Windows](https://github.com/microsoft/AirSim/releases/tag/v1.3.1-windows) and [Linux](https://github.com/microsoft/AirSim/releases/tag/v1.3.1-linux)
+- Upgraded to Unreal Engine 4.24, Visual Studio 2019, Clang 8, C++ 17 standard.
+- Support for [ArduPilot](https://ardupilot.org/ardupilot/) - [Copter, Rover vehicles](https://ardupilot.org/dev/docs/sitl-with-airsim.html)
+- Updated airsim Python package, with lots of new APIs
+- ROS wrapper for multirotors is available
+- [Plotting APIs for Debugging](https://github.com/microsoft/AirSim/pull/2304)
 
-To check if you have Java8 or not, type the command in your terminal:
-```
-java -version
-```
-To check if you have python3 or not, type the command in your terminal:
-```
-python3
-```
 
 
 ## AirSim Demo
