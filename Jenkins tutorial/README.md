@@ -157,3 +157,15 @@ You can also see this pipeline in Blue Ocean with a better UI.
 Now, switch gears: In this step, you will deploy the same Jenkins job by copying the **Jenkinsfile** from a source-controlled GitHub(https://github.com/bryantson/CICDPractice.git).
 
 ![pipeline_scm](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/pipeline_scm.png)
+
+Click **Configure** to modify the existing job. Scroll to the **Advanced Project Options** setting, but this time, select the **Pipeline script from SCM** option in the **Destination** dropdown. Paste the GitHub repo's URL in the **Repository URL**, and type **Jenkinsfile** in the **Script Path**. Save by clicking the **Save** button.
+
+![pipeline_scm_conf](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/pipeline_scm_conf.png)
+
+To build the pipeline, click Build Now to execute the job again. The result will be the same as before, except you have one additional stage called **Declaration: Checkout SCM**.
+
+![scm_conf_build](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/scm_conf_build.png)
+
+To see the pipeline's output from the SCM build, click the Stage and view the **Log** to check how the source control cloning process went.
+
+![scm_conf_log](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/scm_conf_log.png)
