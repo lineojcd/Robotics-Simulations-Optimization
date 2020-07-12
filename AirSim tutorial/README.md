@@ -53,5 +53,10 @@ Following steps needs to be followed.
    ./build.sh
   ```
 ### 1.1.3	[Build Airsim Framework on Windows](https://microsoft.github.io/AirSim/build_windows/)
+### 1.2 Build Unreal Project
+You will need an Unreal project that hosts the environment for your vehicles. AirSim comes with a built-in "Blocks Environment" which you can use, or you can create your own. Please see [setting up Unreal Environment](https://microsoft.github.io/AirSim/unreal_proj/). The Unreal Marketplace has [several environments](https://www.unrealengine.com/marketplace/en-US/content-cat/assets/environments?count=20&sortBy=effectiveDate&sortDir=DESC&start=0) available that you can start using in just few minutes. It is also possible to use environments available on websites such as [turbosquid.com](https://www.turbosquid.com/) or [cgitrader.com](https://www.cgtrader.com/) with bit more effort (here's [tutorial video](https://www.youtube.com/watch?v=y09VbdQWvQY&feature)). In addition there also several [free](https://github.com/Microsoft/AirSim/issues/424). 
 
+Below we will use a freely downloadable environment from Unreal Marketplace called Landscape Mountain but the steps are same for any other environments. You can also view these steps performed in [Unreal AirSim Setup Video](https://www.youtube.com/watch?v=1oY8Qu5maQQ&feature=youtu.be).
+
+**Step by step instructions:**
 
