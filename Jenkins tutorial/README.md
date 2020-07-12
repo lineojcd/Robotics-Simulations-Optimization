@@ -171,3 +171,6 @@ To build the pipeline, click Build Now to execute the job again. The result will
 To see the pipeline's output from the SCM build, click the Stage and view the **Log** to check how the source control cloning process went.
 
 ![scm_conf_log](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/scm_conf_log.png)
+
+### Case 3 Create a pipeline with parallel stages
+
