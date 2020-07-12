@@ -26,5 +26,15 @@ Following steps needs to be followed.
   ![unreal_connect](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/AirSim%20tutorial/src/unreal_connect.png)
   - Accept the invitation on: https://github.com/EpicGames
   ![accept_invi](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/AirSim%20tutorial/src/accept_invi.png)
+  - Clone Unreal in your favorite folder and build it (this may take a while!). Note: We recommend using Unreal 4.24.
+  ```
+  bash
+   # go to the folder where you clone GitHub projects
+   git clone -b 4.24 https://github.com/EpicGames/UnrealEngine.git
+   cd UnrealEngine
+   ./Setup.sh
+   ./GenerateProjectFiles.sh
+   make
+  ```
 
 
