@@ -175,9 +175,9 @@ To see the pipeline's output from the SCM build, click the Stage and view the **
 ### Case 3: Create a pipeline with parallel stages
 **Step 1: Create a new Jenkins job: pipe_para and configure the pipeline
 
-![para1.png](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/para1.png.png)
+![para1.png](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/para1.png)
 
-Copy the below script or copying the **Jenkinsfile_para** from a source-controlled GitHub(git@github.com:lineojcd/RPG_Jenkin_Demo.git).
+Copy the below script or copying the **Jenkinsfile_para** from a source-controlled GitHub(https://github.com/lineojcd/RPG_Jenkin_Demo.git).
 ```
 pipeline {
          agent any
@@ -217,7 +217,11 @@ pipeline {
 ![para2.png](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/para2.png)
 
 **Step 2: Build and see the result on Blue Ocean**
+
 ![para3.png](https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/Jenkins%20tutorial/src/para3.png)
+
+The **Unit Test** is passed and the **Integration test** is failed. This is the same as we expected because there is no command called echo5.
+
 
 
 ## References:
