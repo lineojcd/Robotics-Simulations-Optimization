@@ -7,24 +7,11 @@ AirSim is a simulator for drones, cars and more, built on [Unreal Engine](https:
 - ROS wrapper for multirotors is available
 - [Plotting APIs for Debugging](https://github.com/microsoft/AirSim/pull/2304)
 
+## 1.1 How to Get It
+Users can either use pre-compiled binaries or build the Unreal Engine and Airsim framework locally. 
+- [Download binaries](https://microsoft.github.io/AirSim/use_precompiled/): You can simply download precompiled binaries and run to get started immediately. 
+- [Build it locally](https://microsoft.github.io/AirSim/build_windows/) 
 
 
-## AirSim Demo
-<video id="video" controls="" preload="none" >
-<source id="mp4" src="https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/AirSim%20tutorial/src/Airsim_demo.mp4">
-</video>
-
-## AirSim Demo1
-<video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
-      <source id="mp4" src="https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/AirSim%20tutorial/src/Airsim_demo.mp4" type="video/mp4">
-      <source id="webm" src="http://media.w3.org/2010/05/sintel/trailer.webm" type="video/webm">
-      <source id="ogv" src="http://media.w3.org/2010/05/sintel/trailer.ogv" type="video/ogg">
-      <p>Your user agent does not support the HTML5 Video element.</p>
-</video>
-
-## AirSim Demo2
-<video src="https://blog.niostack.com/rewu.mp4" controls="controls" width="640" height="320" autoplay="autoplay">
-Your browser does not support the video tag.
-</video>
-
- 
+### 1.1.1 Precompiled Binaries
+Precompiled binaries are provided for both linux and windows. Users can just download the zip files and run the application. 
