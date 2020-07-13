@@ -32,7 +32,7 @@ print("state: %s" % s)
 imu_data = client.getImuData()
 s = pprint.pformat(imu_data)
 print("imu_data: %s" % s)
-
+ 
 barometer_data = client.getBarometerData()
 s = pprint.pformat(barometer_data)
 print("barometer_data: %s" % s)
