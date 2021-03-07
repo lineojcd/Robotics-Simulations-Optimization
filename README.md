@@ -1,3 +1,3 @@
 # Robotics-Simulations-Optimization
 
-Master Project 2020 (team with Neeraj)
+Independent Study 2020 (teamed with Neeraj)
